@@ -1,10 +1,11 @@
 
 
+import { montserrat } from '@/app/layout';
 import React from 'react';
 
 const page = () => {
     return (
-        <div className={`{montserrat.className}`}>
+        <div className={`${montserrat.className}`}>
             login
 
         </div>

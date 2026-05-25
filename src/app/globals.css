@@ -1,2 +1,5 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Scan all src files — route pages (e.g. page.js) are not imported by layout */
+@source "../**/*.{js,jsx,ts,tsx}";
