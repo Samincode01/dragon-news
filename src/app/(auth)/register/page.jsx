@@ -1,8 +1,9 @@
+import { montserrat } from '@/app/layout';
 import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className={`${montserrat.className}`}>
             register
         </div>
     );
