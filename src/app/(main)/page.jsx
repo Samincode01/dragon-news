@@ -15,12 +15,12 @@ export default async function Home() {
         <LeftSideBar categories={categories} activeId={"01"} />
       </div>
 
-      <div className="col-span-6 bg-green-100 font-bold">
-        All News
+      <div className="col-span-6 bg-green-100">
+        <h1>News By Category</h1>
 
         <div className="space-y-4">
           {news?.map((n) => (
-            <NewsCard key={n._id} className="p-8 rounded-md border" news={n}>
+            <NewsCard key={n._id}  news={n}>
               {n.title}
             </NewsCard>
           ))}
